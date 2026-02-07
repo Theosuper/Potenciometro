@@ -21,5 +21,7 @@ void loop() {
   //Mapear o valor até 255
   valorMapeado = map(valor, 0, 1023, 0, 255); //convert to 0-255
   analogWrite(6, valorMapeado); 
+  analogWrite(5, valorMapeado); 
+  analogWrite(3, valorMapeado); 
 }
 
